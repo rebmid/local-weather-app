@@ -4,19 +4,15 @@
   <nav class="slide-menu" [ngClass]="{'slide-menu-active': showMenu}" (click)="$event.stopImmediatePropagation();">
 
       <section class="menu-header">
-
         <span class="greeting__text">Local Weather!</span>
-
         <div class="profile-image__container">
         <img src="https://avatars3.githubusercontent.com/u/5658460?s=460&v=4" alt="profile-image"
            class="profile__image">
         </div>
-
         <div class="account-details">
         <span class="name__text">Rebekah</span>
         <span class="email__text">test@gmail.com</span>
         </div>
-
         </section>
    
 <section class="menu-footer">
@@ -91,6 +87,8 @@
   <main class="main__container">
       <div class="main-container__bg" [ngClass]="{'main-container__bg-dark': darkModeActive}"></div>
       </main>
-    
+      <footer class="main__footer">
+    </footer>
+
 </div>
 
